@@ -11,8 +11,8 @@ function Intro() {
         <div className="introContent">
             <span className='hello'>Hello,</span>
             <span className="introText">I'm <span className="introName">Hrita</span> <br/> Student</span>
-            <p className="introPara">I am currently a student passionate in learning about todays changing technology. Currently in the phase of learning.</p>
-            <Link><button className='btn'><img src={btnImg} alt="Hire Me"/>Hire Me</button></Link>
+            <p className="introPara">I am currently a student passionate in learning about todays <br/> changing technology. Currently in the phase of learning.</p>
+            <Link><button className='btn'><img src={btnImg} alt="Hire Me" className='btnImg'/>Hire Me</button></Link>
         </div>
         <img src={bg} alt='Profile' className='bg'/>
     </section>
