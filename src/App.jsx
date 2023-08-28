@@ -1,5 +1,6 @@
 import Intro from "./components/Intro/Intro";
 import Navbar from "./components/NavBar/Navbar";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <>
         <Navbar/>
         <Intro/>
+        <Skills/>
     </>
   )
 }
