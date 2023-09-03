@@ -1,3 +1,4 @@
+import Contact from "./components/Contact/contact";
 import Intro from "./components/Intro/Intro";
 import Navbar from "./components/NavBar/Navbar";
 import Skills from "./components/Skills/Skills";
@@ -12,6 +13,7 @@ function App() {
         <Intro/>
         <Skills/>
         <Works/>
+        <Contact/>
     </>
   )
 }
