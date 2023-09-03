@@ -37,3 +37,19 @@
 #clients{
     padding: 2rem;
 }
+
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
